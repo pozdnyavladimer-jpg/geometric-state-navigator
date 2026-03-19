@@ -35,13 +35,9 @@ This project explores a non-gradient, geometry-driven system where:
 ## Example Output
 FINAL PHASE: plasma shadow: 0.050 coherence: 0.914 target_fit: 0.725 vitality: 0.812 BINDU OPEN STEPS: [27, 36]
 ---
+## Run in Colab
 
-## Run
-
-Open the notebook in Google Colab and run all cells:
-
-👉 (add your Colab link here after upload)
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1XO_GhnqEMdhTLLXklhvlI5kulIqBl60w)
 ---
 
 ## Notes
