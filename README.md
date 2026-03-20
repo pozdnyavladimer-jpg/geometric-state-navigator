@@ -6,7 +6,6 @@ Instead of selecting outputs by probability or score, GSL evaluates how candidat
 
 ---
 ## Text / Code Encoder Demo
-## Text / Code Encoder Demo
 
 The project includes a demo that maps both natural language and code into the same 6D behavioral state space.
 
