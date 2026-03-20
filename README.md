@@ -42,7 +42,55 @@ GSL improves:
 - adaptive decision-making
 
 ---
+---
 
+## 🧪 Research & Graph Architecture Lab
+
+GSL is the control layer.
+
+The underlying graph-based architecture reasoning environment is developed in:
+
+👉 https://github.com/pozdnyavladimer-jpg/gitcube-lab
+
+GitCube Lab is a research platform that focuses on:
+
+- dependency graph analysis  
+- architecture stability and risk detection  
+- topology-based reasoning  
+- agent-based architecture repair (Graph School)  
+- adaptive memory over structural states  
+
+---
+
+### How they connect
+
+- **GSL** → evaluates and selects actions based on global state  
+- **GitCube** → provides structural understanding of systems (graph topology)
+
+Together they form:
+
+> a system that can both **understand architecture** and **control behavior**
+
+---
+
+### Conceptual mapping
+
+- GitCube → graph / topology / structural risk  
+- GSL → state space / field simulation / decision control  
+
+---
+
+This separation allows:
+
+- GitCube to model **structure**
+- GSL to regulate **behavior**
+
+---
+
+👉 In short:
+
+GSL decides *what to do*  
+GitCube understands *what the system is*
 ## 🧩 Architecture
 
 - [State Model](./STATE_MODEL.md)
