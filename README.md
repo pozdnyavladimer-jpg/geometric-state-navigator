@@ -7,7 +7,15 @@
 GSL is a control layer for nonlinear state regulation on top of existing AI systems.
 
 It evaluates candidate actions not only by local score, but by how they reshape a distributed field and improve global system state.
+```markdown
+## Architecture Documents
 
+- [State Model](./STATE_MODEL.md)
+- [Control Layer](./CONTROL_LAYER.md)
+- [Benchmark](./BENCHMARK.md)
+- [Use Cases](./USE_CASES.md)
+- [Multi-Agent Architecture](./MULTI_AGENT_ARCHITECTURE.md)
+```
 ## Run in Colab
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1XO_GhnqEMdhTLLXklhvlI5kulIqBl60w)
