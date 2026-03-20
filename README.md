@@ -15,7 +15,7 @@ This allows the system to read:
 - structured code
 - pathological code patterns
 
-→ see `gsl_text_encoder_demo.ipynb`
+→ see [gsl_text_encoder_demo.ipynb](./gsl_text_encoder_demo.ipynb)
 ## 🚀 Core Idea
 
 Standard AI:
