@@ -6,16 +6,20 @@ Instead of selecting outputs by probability or score, GSL evaluates how candidat
 
 ---
 ## Text / Code Encoder Demo
+## Text / Code Encoder Demo
 
 The project includes a demo that maps both natural language and code into the same 6D behavioral state space.
 
 This allows the system to read:
-- unstable text
-- balanced instructions
-- structured code
-- pathological code patterns
+
+- unstable text  
+- balanced instructions  
+- structured code  
+- pathological code patterns  
 
 → see [gsl_text_encoder_demo.ipynb](./gsl_text_encoder_demo.ipynb)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pozdnyavladimer-jpg/geometric-state-navigator/blob/main/gsl_text_encoder_demo.ipynb)
 ## 🚀 Core Idea
 
 Standard AI:
