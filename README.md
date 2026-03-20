@@ -402,4 +402,3 @@ adaptive agents
 One-line definition
 
 Geometry-Guided State Navigation Layer is a control architecture that selects actions by simulating how candidate states reshape a distributed field, then preferring candidates that improve coherence, reduce residual pressure, and trigger stable transitions.
-
