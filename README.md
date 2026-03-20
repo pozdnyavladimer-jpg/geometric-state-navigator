@@ -1,3 +1,7 @@
+## Architecture
+
+- [State Model](./STATE_MODEL.md)
+- [Control Layer](./CONTROL_LAYER.md)
 # Geometry-Guided State Navigation Layer (GSL)
 
 GSL is a control layer for nonlinear state regulation on top of existing AI systems.
