@@ -5,7 +5,17 @@ GSL is a control layer for nonlinear state regulation on top of existing AI syst
 Instead of selecting outputs by probability or score, GSL evaluates how candidate states reshape a distributed field and selects the one that improves global system stability.
 
 ---
+## Text / Code Encoder Demo
 
+The project includes a demo that maps both natural language and code into the same 6D behavioral state space.
+
+This allows the system to read:
+- unstable text
+- balanced instructions
+- structured code
+- pathological code patterns
+
+→ see `gsl_text_encoder_demo.ipynb`
 ## 🚀 Core Idea
 
 Standard AI:
