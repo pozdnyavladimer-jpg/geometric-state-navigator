@@ -402,3 +402,81 @@ adaptive agents
 One-line definition
 
 Geometry-Guided State Navigation Layer is a control architecture that selects actions by simulating how candidate states reshape a distributed field, then preferring candidates that improve coherence, reduce residual pressure, and trigger stable transitions.
+---
+
+## Adversarial Selection Result
+
+To test whether GSL behaves differently from standard local selectors, we constructed an adversarial candidate set with conflicting properties:
+
+- rigid, high-structure control strategies  
+- adaptive, balance-oriented strategies  
+- exploratory and uncertain responses  
+
+### Baseline behavior
+
+A local scoring function preferred a rigid control strategy:
+
+**force_control**
+
+This candidate maximized structure and rule compliance locally.
+
+Field metrics after simulation:
+
+- shadow = 0.232  
+- coherence = 0.901  
+- target_fit = 0.684  
+- vitality = 0.575  
+
+---
+
+### GSL behavior
+
+GSL selected a different candidate:
+
+**integrative_adaptive**
+
+This candidate reduced pressure while preserving flow, balance, and future potential.
+
+Field metrics after simulation:
+
+- shadow = 0.223  
+- coherence = 0.938  
+- target_fit = 0.706  
+- vitality = 0.594  
+
+---
+
+### Key observation
+
+Baseline and GSL selected different candidates.
+
+GSL improved:
+
+- lower residual pressure (shadow ↓)
+- higher structural coherence (coherence ↑)
+- better attractor alignment (target_fit ↑)
+- higher dynamic capacity (vitality ↑)
+
+---
+
+### Interpretation
+
+The baseline selector preferred rigid local structure.
+
+GSL preferred a candidate that produced a more stable global field state.
+
+This demonstrates that:
+
+> GSL selects by downstream system stabilization, not by local preference alone.
+
+---
+
+### Conclusion
+
+GSL can override locally optimal decisions when they lead to poorer global system behavior.
+
+This is a key step toward:
+
+- behavior-level control  
+- structural memory  
+- stability-aware decision making
