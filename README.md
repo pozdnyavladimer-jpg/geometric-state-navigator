@@ -511,3 +511,13 @@ GSL behaves as a control layer:
 it agrees with baseline when the local choice is already structurally stable
 it diverges when a different candidate produces a better global field state
 This indicates that GSL does not replace local scoring, but augments it with global state regulation.
+## Multi-Agent Demo
+
+This notebook demonstrates:
+
+- routing based on system state
+- coalition selection between agents
+- commit gating
+- multi-step adaptive regulation
+
+[Run in Colab](Untitled21.ipynb - Colab https://share.google/8U6sa5H5sF9zVHSR9)
