@@ -480,3 +480,22 @@ This is a key step toward:
 - behavior-level control  
 - structural memory  
 - stability-aware decision making
+Benchmark: Baseline vs GSL
+A small benchmark was conducted across multiple decision scenarios, including:
+unstable systems with conflicting signals
+hallucination risk in model outputs
+agent loop behavior
+planning conflicts
+memory instability
+Each scenario compares:
+a baseline selector (local preference based on encoded text features)
+the GSL selector (field-based global state evaluation)
+Results (rebalanced GSL)
+selection differences: 3/5 cases
+average coherence gain: +0.024
+shadow / target_fit / vitality tradeoff significantly reduced compared to earlier versions
+Interpretation
+GSL behaves as a control layer:
+it agrees with baseline when the local choice is already structurally stable
+it diverges when a different candidate produces a better global field state
+This indicates that GSL does not replace local scoring, but augments it with global state regulation.
