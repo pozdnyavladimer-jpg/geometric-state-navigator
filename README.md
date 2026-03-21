@@ -1,5 +1,25 @@
 # Geometry-Guided State Navigation Layer (GSL)
+## Risk-Level Behavior Demo
 
+The system adapts behavior based on structural risk:
+
+### LOW RISK
+- risk: 0.233
+- decision: planner+explorer
+- interpretation: safe to explore
+
+### MEDIUM RISK
+- risk: 0.51
+- decision: planner+critic
+- interpretation: controlled execution
+
+### HIGH RISK
+- risk: 1.0
+- decision: planner+stabilizer
+- interpretation: stabilization required
+
+The system does not react to tokens —  
+it reacts to structural instability.
 GSL is a control layer for nonlinear state regulation on top of existing AI systems.
 
 Instead of selecting outputs by probability or score, GSL evaluates how candidate states reshape a distributed field and selects the one that improves global system stability.
