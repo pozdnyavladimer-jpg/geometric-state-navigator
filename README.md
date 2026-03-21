@@ -131,3 +131,13 @@ This shows that GSL selects based on system dynamics, not local preference.
 ## 📌 One-line definition
 
 Geometry-Guided State Navigation Layer selects actions by simulating how candidate states reshape a distributed field and preferring those that improve coherence, reduce pressure, and enable stable transitions.
+## Canonical Kernel Demo
+
+Minimal kernel pipeline:
+
+```bash
+python -m kernel.pipeline
+```
+Example output:
+Decision: {'coalition': 'planner+stabilizer', 'status': 'COMMIT'}
+Metrics: {'shadow': 0.05, 'coherence': 0.9, 'target_fit': 0.6, 'vitality': 0.4}
