@@ -5,6 +5,21 @@ GSL is a control layer for nonlinear state regulation on top of existing AI syst
 Instead of selecting outputs by probability or score, GSL evaluates how candidate states reshape a distributed field and selects the one that improves global system stability.
 
 ---
+## Canonical Integrated Demo
+
+GitCube computes structural risk from a dependency graph.  
+GSL converts that risk into a state vector and selects a control coalition.
+
+This demonstrates a shift from code-level reasoning to system-level decision making.
+
+Example:
+
+- risk = 0.51  
+- verdict = WARN  
+- decision = planner+critic  
+- status = SOFT_COMMIT  
+
+The system reacts not to tokens, but to structural instability.
 ## Text / Code Encoder Demo
 
 The project includes a demo that maps both natural language and code into the same 6D behavioral state space.
