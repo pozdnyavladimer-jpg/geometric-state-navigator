@@ -1,4 +1,11 @@
 # Geometry-Guided State Navigation Layer (GSL)
+## ▶️ Quick Start
+
+Start here:
+
+- Multi-agent demo → notebooks/gsl_multi_agent_bindu_demo.ipynb
+- 3D field simulation → research/simulation_3d_bindu.ipynb
+- Text encoder → research/gsl_text_encoder_demo.ipynb
 ## Risk-Level Behavior Demo
 
 The system adapts behavior based on structural risk:
