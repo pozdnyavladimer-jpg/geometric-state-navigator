@@ -1,5 +1,13 @@
 # STATE_MODEL: Six-Dimensional State Ontology
+## Quick Start
 
+To understand how this model behaves in practice:
+
+- Dual Brain Simulation → [link]
+- State propagation demo → [link]
+- Pattern evaluation demo → [link]
+
+These examples show how the six-dimensional state evolves under different conditions.
 This project uses a six-dimensional state model to represent, simulate, and regulate system behavior as a distributed field.
 
 Instead of optimizing a single scalar score, the system operates in a normalized vector space where each dimension captures a distinct aspect of system dynamics.
