@@ -17,6 +17,21 @@ They are **control variables of the system state**.
 
 ---
 
+## Example State
+
+Example:
+
+V = [0.2, 0.3, 0.2, 0.15, 0.1, 0.05]
+
+Interpretation:
+- moderate pressure
+- strong flow
+- stable structure
+- partial balance
+- weak constraint
+- low transition readiness
+
+This state indicates a system that is active but not fully stable.
 ## Executive Summary
 
 The Geometry-Guided State Navigation Layer (GSL) represents behavior as a field distributed over multiple nodes (currently 19 in a 3D topology).
