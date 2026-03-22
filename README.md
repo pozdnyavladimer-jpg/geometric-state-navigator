@@ -194,3 +194,141 @@ python -m kernel.pipeline
 Example output:
 Decision: {'coalition': 'planner+stabilizer', 'status': 'COMMIT'}
 Metrics: {'shadow': 0.05, 'coherence': 0.9, 'target_fit': 0.6, 'vitality': 0.4}
+## 🧿 6D State + Bindu + Multi-Agent
+
+This system operates on a six-dimensional state space distributed across a field of nodes.
+
+Each node contains a normalized vector:
+
+V = [Pressure, Flow, Structure, Balance, Law, Future]
+
+Instead of making decisions directly, the system simulates how candidate actions reshape the entire field.
+
+---
+
+### 🔷 1. Six-Dimensional State (6D)
+
+Each dimension represents a fundamental control axis:
+
+- Pressure → unresolved tension (red)
+- Flow → adaptability (orange)
+- Structure → organization (yellow)
+- Balance → internal coherence (green)
+- Law → constraints (blue)
+- Future → transition readiness (violet)
+
+The system does not optimize a score.
+
+It regulates **geometry of state**.
+
+---
+
+### 🧿 2. Bindu (Critical Transition Point)
+
+Bindu is the moment where the system becomes:
+
+- low pressure  
+- highly coherent  
+- aligned with target  
+- dynamically stable  
+
+At this point:
+
+- the field stops oscillating  
+- decisions stabilize  
+- transitions become possible  
+
+Bindu is not a threshold —  
+it is a **phase transition in system behavior**.
+
+---
+
+### 🤖 3. Multi-Agent Dynamics
+
+The system uses multiple agents:
+
+- planner → builds structure  
+- critic → enforces constraints  
+- explorer → increases adaptability  
+- stabilizer → reduces pressure  
+
+Each agent modifies the state vector differently.
+
+---
+
+### ⚖️ 4. Coalition Selection
+
+Instead of picking a single agent:
+
+→ the system evaluates **combinations of agents**
+
+Example:
+
+- planner + explorer → exploration mode  
+- planner + critic → controlled execution  
+- planner + stabilizer → stabilization  
+
+The system selects the coalition that:
+
+- reduces pressure  
+- increases coherence  
+- improves global state  
+
+---
+
+### 🔁 5. Field Simulation Loop
+
+At each step:
+
+1. generate candidate actions  
+2. encode into 6D state  
+3. apply to field  
+4. simulate propagation  
+5. evaluate metrics  
+6. select best coalition  
+7. update memory  
+
+This creates a **closed feedback loop**.
+
+---
+
+### 🧠 6. Memory Fold-In
+
+The system does not reset.
+
+Each accepted step:
+
+→ is stored and affects future decisions
+
+This enables:
+
+- long-horizon behavior  
+- structural learning  
+- trajectory stabilization  
+
+---
+
+### 🌊 7. Phase Dynamics
+
+The system moves through phases:
+
+- water → high pressure (unstable)  
+- gas → transitional  
+- plasma → high energy alignment  
+- crystal → stable coherent state  
+
+Bindu emerges between plasma → crystal.
+
+---
+
+### ⚡ Key Insight
+
+This system does not choose outputs.
+
+It selects actions based on how they reshape a distributed field.
+
+---
+
+### 🧩 One-line Summary
+
+Multi-agent coalitions regulate a six-dimensional state field and drive it toward a stable transition point (Bindu) through iterative simulation.
