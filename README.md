@@ -61,6 +61,17 @@ This allows the system to read:
 → see [gsl_text_encoder_demo.ipynb](./research/gsl_text_encoder_demo.ipynb)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pozdnyavladimer-jpg/geometric-state-navigator/blob/main/research/gsl_text_encoder_demo.ipynb)
+## 🧭 Recommended Flow
+
+1. Run multi-agent demo  
+2. Observe state evolution  
+3. Run 3D bindu simulation  
+4. Try text encoder  
+
+This demonstrates:
+- state control
+- field simulation
+- structure → behavior mapping
 ## 🚀 Core Idea
 
 Standard AI:
