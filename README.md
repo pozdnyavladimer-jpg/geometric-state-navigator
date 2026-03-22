@@ -58,9 +58,9 @@ This allows the system to read:
 - structured code  
 - pathological code patterns  
 
-→ see [gsl_text_encoder_demo.ipynb](./gsl_text_encoder_demo.ipynb)
+→ see [gsl_text_encoder_demo.ipynb](./research/gsl_text_encoder_demo.ipynb)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pozdnyavladimer-jpg/geometric-state-navigator/blob/main/gsl_text_encoder_demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pozdnyavladimer-jpg/geometric-state-navigator/blob/main/research/gsl_text_encoder_demo.ipynb)
 ## 🚀 Core Idea
 
 Standard AI:
