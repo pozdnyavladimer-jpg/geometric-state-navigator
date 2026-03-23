@@ -150,7 +150,7 @@ Bindu → transition point
 - docs/ENVIRONMENT_CANON.md  
 - docs/PROMOTION_RULES.md  
 - docs/PROMOTION_CANDIDATES.md  
-- docs/REPO_MAP.md  
+- docs/REPO_MAP.md
 
 ---
 
@@ -165,3 +165,42 @@ OS → execution
 ## ⚡ One-line
 
 GSL selects actions by evaluating how they reshape a distributed state field.
+
+
+---
+
+## 🔗 System Architecture
+
+This repository is part of a 3-layer system:
+
+- GitCube Lab → exploration and experiments  
+- Geometry Navigator → canonical interpretation (this repo)  
+- GitCube OS → runtime execution  
+
+Flow:
+
+Lab → Navigator → OS  
+
+Meaning:
+
+- Lab invents  
+- Navigator explains  
+- OS executes  
+
+---
+
+## 🧠 Why this matters
+
+Without separation:
+
+- experiments pollute runtime  
+- runtime becomes unstable  
+- system becomes unexplainable  
+
+This architecture ensures:
+
+- clarity  
+- stability  
+- evolvability  
+
+MD
