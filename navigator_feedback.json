@@ -1,0 +1,17 @@
+{
+  "source": "NAVIGATOR",
+  "action": "INCREASE_FLOW",
+  "issues": [
+    "LOW_FLOW",
+    "LOW_LAW",
+    "OVER_STABLE"
+  ],
+  "vector": {
+    "pressure": 0.114,
+    "flow": 0.14,
+    "structure": 0.19,
+    "balance": 0.8,
+    "law": 0.114,
+    "future": 0.25
+  }
+}
